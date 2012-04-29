@@ -1,0 +1,48 @@
+<!DOCTYPE=html>
+<html lang="es">
+  <head>
+    <meta charser="uft8"/>
+    <title>Novelea</title>
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://192.168.3.75:8081/socket.io/socket.io.js"></script>
+    <script>
+
+    var socket = io.connect('http://192.168.3.75:8081');
+	socket.on('getRedisDataResponse', function (data) {
+		console.log('getRedisDataResponse', data);
+	});
+	socket.on('publish', function(data){
+		console.log(data);
+        $('#vuelta').html(data.text);
+    });
+    
+    socket.on('connect', function (data) {
+		socket.emit('getRedisData', {});
+	});
+
+    function pasarDatos(){
+		socket.emit('setRedisData', { text: $('#input_entrada').val()});
+        return false;
+	};
+      
+    </script>
+    </head>
+    <body>
+
+      <div id="entrada">
+        <form id="form_entrada" onSubmit="return pasarDatos();" method="post">
+
+          <input type="text" id="input_entrada" name="input_entrada">Mete algo aqui</input>
+
+          <input type="submit"/>
+        </form>
+      </div>
+
+
+      <div id="vuelta">
+
+      </div>
+
+    </body>
+</html>

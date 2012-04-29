@@ -1,0 +1,17 @@
+--GitHub
+https://github.com/mcuadros/Novelea
+
+--Node.js, MongoDb, Mongoose, Restify
+http://backbonetutorials.com/nodejs-restify-mongodb-mongoose/
+
+--Taller Betabeers NodeJS
+https://github.com/NachoSoto/Taller-Betabeers
+
+--Websockets para administradores de sistemas
+http://www.forondarena.net/2011/02/websockets-para-administradores-de-sistemas/
+
+--Crear un chat con node.js y socket.io
+http://hispabyte.net/2011/12/crear-un-chat-con-node-js-y-socket-io/
+
+--MDN
+https://developer.mozilla.org/es/WebSockets
