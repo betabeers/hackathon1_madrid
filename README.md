@@ -10,7 +10,7 @@ Temática: Lectura de libros en la nube, características sociales, nuevas forma
 
 ## The Pirate Book
 
-* Descripción: Extensión de chorme para buscar torrents de libros
+* Descripción: Extensión de chorme para buscar torrents de libros en amazon.
 * Autores: Arturo Herrero, David Molinerom y Marcin Gryszko.
 * Repositorio original: https://github.com/mgryszko/betabeers
 
@@ -18,7 +18,7 @@ Temática: Lectura de libros en la nube, características sociales, nuevas forma
 
 * Descripción: Crea una encuesta de dos libros para que tus amigos te recomienden cual leer o dejate recomendar por la 
 valoración que haya en google books.
-* Autores: Miquel Camps
+* Autores: Miquel Camps.
 * Repositorio original: https://github.com/miquelcamps/bookpoll
 
 
