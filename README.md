@@ -21,5 +21,11 @@ valoración que haya en google books.
 * Autores: Miquel Camps.
 * Repositorio original: https://github.com/miquelcamps/bookpoll
 
+## Instabooks
+
+* Descripción: Recibe recomendacioens de amigos e intercambia extractos de libros.
+* Autores: Joni Salonen, Saúl Díaz y Daniel Gonzalez.
+* Repositorio original: https://github.com/joni/Instabook
+
 
 **Todavía nos faltan varios proyectos por subir**
