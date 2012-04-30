@@ -1,0 +1,115 @@
+2012/04/28 16:39:33 [error] [php] Undefined property: Book::$google_link (/home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/views/book/search.php:26)
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(870): BookController->renderFile()
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(783): BookController->renderPartial()
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(18): BookController->render()
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(50): BookController->actionIndex()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): BookController->runAction()
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): BookController->runActionWithFilters()
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): BookController->run()
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/views/book/search.php (26)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php (18)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php (13)
+2012/04/28 16:53:25 [error] [php] Trying to get property of non-object (/home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php:209)
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/Book.php(30): BooksParseService->get()
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksService.php(102): Book->save()
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BookSearchForm.php(12): BooksService->search()
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(12): BookSearchForm->search()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(50): BookController->actionIndex()
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams()
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): BookController->runAction()
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): BookController->runActionWithFilters()
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): BookController->run()
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController()
+#10 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book&BookSearchForm%5Bquery%5D=el+se%C3%B1or+de+los+anillos&yt0=Search
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php (209)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php (170)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php (69)
+2012/04/28 17:03:54 [error] [php] Undefined offset: 0 (/home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php:72)
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BookSearchForm.php(12): BooksService->search()
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(12): BookSearchForm->search()
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(50): BookController->actionIndex()
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): BookController->runAction()
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): BookController->runActionWithFilters()
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): BookController->run()
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book&BookSearchForm%5Bquery%5D=el+se%C3%B1or+de+los+anillos&yt0=Search
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php (72)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/Book.php (30)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksService.php (101)
+2012/04/28 17:04:32 [error] [php] Undefined offset: 0 (/home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php:72)
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BookSearchForm.php(12): BooksService->search()
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(12): BookSearchForm->search()
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(50): BookController->actionIndex()
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): BookController->runAction()
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): BookController->runActionWithFilters()
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): BookController->run()
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book&BookSearchForm%5Bquery%5D=el+se%C3%B1or+de+los+anillos&yt0=Search
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php (72)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/Book.php (30)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksService.php (101)
+2012/04/28 17:15:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "kl4ztrlFTTIC".' in /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php:484
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(271): CController->missingAction('kl4ztrlFTTIC')
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): CController->run('kl4ztrlFTTIC')
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController('book/kl4ztrlFTT...')
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/book/kl4ztrlFTTIC
+HTTP_REFERER=http://instabook.local/index.php?r=book&BookSearchForm%5Bquery%5D=el+se%C3%B1or+de+los+anillos&yt0=Search&BookSearchForm%5Bquery%5D=tolkien&yt0=Search&BookSearchForm%5Bquery%5D=juego+de+tronos&yt0=Search&BookSearchForm%5Bquery%5D=el+se%C3%B1or+de+los+anillos&yt0=Search
+---
+2012/04/28 19:12:24 [error] [php] Trying to get property of non-object (/home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php:209)
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksService.php(100): BooksParseService->get()
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/Book.php(63): BooksService->get()
+#2 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(22): Book->__construct()
+#3 unknown(0): BookController->actionRead()
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams()
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): BookController->runAction()
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): BookController->runActionWithFilters()
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): BookController->run()
+#10 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=book/read&id=khkU4KZ5o-4C
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php (209)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/vendors/parse.php (170)
+in /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/models/BooksParseService.php (69)
+2012/04/28 19:14:43 [error] [exception.CException] exception 'CException' with message 'BookController and its behaviors do not have a method or closure named "layout".' in /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CComponent.php:266
+Stack trace:
+#0 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(23): CComponent->__call('layout', Array)
+#1 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/protected/controllers/BookController.php(23): BookController->layout(false)
+#2 [internal function]: BookController->actionRead('khkU4KZ5o-4C')
+#3 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(BookController), Array)
+#4 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(BookController), Object(ReflectionMethod), Array)
+#5 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(276): CController->run('read')
+#9 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/web/CWebApplication.php(135): CWebApplication->runController('book/read')
+#10 /home/dgonzalez/NetBeansProjects/Instabook/yii-framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /home/dgonzalez/NetBeansProjects/Instabook/yii-app/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=book/read&id=khkU4KZ5o-4C
+HTTP_REFERER=http://instabook.local/index.php?r=book/view&id=khkU4KZ5o-4C
+---
