@@ -10,7 +10,7 @@ Juan Carlos Alonso  ("l_h2o_l":http://twitter.com/l_h2o_l/ )
 
 h2. Description
 
-Comic Surfer is mobile app in HTML5 that makes visualization of comics in small screens easier and with a little effort for artists.
+Comic Surfer is a mobile app in HTML5 that makes visualization of comics in small screens easier and with a little effort for artists.
 
 Comic Surfer has two main parts, an authoring tool and a mobile interface.
 
