@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Comic Surfer</title>
+    <meta name="description" content="">
+    <meta name="author" content="Juan Carlos Alonso, Israel Gutiérrez, Juan Carlos Alonso">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+    <link rel="apple-touch-startup-image" href="assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./lungo.js/lungo-1.2.css">
+    <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+    <link rel="stylesheet" href="./assets/stylesheets/comicSurfer.css">
+</head>
+
+<body class="app">
+
+    <section id="login">
+        <article class="splash">
+            <div class="indented">
+                <h1>Comic <span class="semi-opacity">Surfer<span></h1>
+                <h2>Login</h2>
+                <input type="text" placeholder="Type any username" />
+                <input type="password" placeholder="Type any password" />
+                </br></br>
+                <a id="btnLogin" href="#comicMainView" data-target="section" class="button" data-icon="key"> View my Comics</a>
+                <div class="copyright">
+
+                    <img src="./assets/images/betabeersLogo.png" alt="betabeersLogo" width="200" height="79" />
+                </div>
+
+                <div class="switch">
+                    <span class="thumb"></span>
+                    <input type="checkbox" checked="off" />
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <section id="comicMainView">
+        <header data-title="Comic Surfer">
+            <a href="#aside-menu" class="button onleft" data-target="aside" data-icon="items"></a>
+            <a href="#aside-authors" data-target="aside" data-article="homescreen" class="button onright">Authors</a>
+        </header>
+
+       <!-- Home screen -->
+        <article id="homescreen" class="splash">
+            <h1><a href="#aside-menu" data-icon="left" data-target="aside"></a>Select a comic from the menu</h1>
+        </article>
+
+       <!-- Comic display -->
+        <article id="container">
+            <div id="pageDisplayer"></div>
+            <audio autoplay id="audio"></audio>
+        </article>
+
+    </section>
+
+
+    <aside id="aside-menu" class="scrollable">
+            <div>
+                    <div class="title">Menu</div>
+                    <a href="#homescreen" data-target="article" class="current" data-icon="home">Home</a>
+                    <div class="anchor">My Comics</div>
+                    <a href="#container" data-target="article" class="comicBook"  id="comicID-1" data-icon="files">Pardillos</a>
+                    <a  id="comicID-2" data-icon="files">Death Note</a>
+            </div>
+    </aside>
+
+    <aside id="aside-authors" class="scrollable onright">
+        <div>
+            <div class="anchor">Made for</div>
+            <a data-image="assets/images/avatars/betalogo.png">1st Betabeers Hackathon</a>
+            <div class="anchor">Authors of Comic Surfer</div>
+            <a href="http://twitter.com/gootyfer" target="_blank" data-image="assets/images/avatars/israel.png">Israel Guti&eacute;rrez</a>
+            <a href="https://www.facebook.com/uve.hache" target="_blank" data-image="assets/images/avatars/victor.png">V&iacute;ctor Hern&aacute;ndez</a>
+            <a href="http://twitter.com/l_h2o_l" target="_blank" data-image="assets/images/avatars/jcalonso.jpeg">Juan Carlos Alonso</a>
+            <div class="anchor">Build with</div>
+            <a href="http://lungojs.com" target="_blank" data-image="assets/images/avatars/lungojs.png">LungoJS</a>
+        </div>
+    </aside>
+
+
+    <!-- LungoJS (Dev mode) -->
+
+    <script src="lungo.js/lungo-1.2.packed.js"></script>
+    <!-- LungoJS - Sandbox App -->
+    <script src="app/app.js"></script>
+    <script src="app/data.js"></script>
+    <script src="app/events.js"></script>
+    <script src="app/services.js"></script>
+    <script src="app/view.js"></script>
+
+</body>
+</html>
