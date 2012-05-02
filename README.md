@@ -2,6 +2,12 @@
 
 Temática: Lectura de libros en la nube, características sociales, nuevas formas de navegar por las páginas... cualquier idea innovadora aplicada a los ebooks tiene cabida.
 
+## Comic-Surfer
+
+* Descripción: Lector de comics móvil en HTML.
+* Autores: Israel Gutiérrez, Juan Carlos Alonso y Víctor Hernández.
+* Repositorio original: https://github.com/jcalonso/Comic-Surfer
+
 ## Novelea
 
 * Descripción: Crea historias de forma colaborativa y en tiempo real.
@@ -26,6 +32,5 @@ valoración que haya en google books.
 * Descripción: Recibe recomendacioens de amigos e intercambia extractos de libros.
 * Autores: Joni Salonen, Saúl Díaz y Daniel Gonzalez.
 * Repositorio original: https://github.com/joni/Instabook
-
 
 **Todavía nos faltan varios proyectos por subir**
