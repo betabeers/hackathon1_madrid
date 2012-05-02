@@ -1,0 +1,30 @@
+h1. Comic-Surfer
+
+HTML5 Comic visualizer mobile App and authoring tool.
+Made for the 1st Betabeers Hackathon.
+
+Authors:
+Israel Gutiérrez  ("gootyfer":http://twitter.com/gootyfer/ )
+Víctor Hernández  ("uve.hache":https://www.facebook.com/uve.hache )
+Juan Carlos Alonso  ("l_h2o_l":http://twitter.com/l_h2o_l/ )
+
+h2. Description
+
+Comic Surfer is a mobile app in HTML5 that makes visualization of comics in small screens easier and with a little effort for artists.
+
+Comic Surfer has two main parts, an authoring tool and a mobile interface.
+
+The authoring tool enables the artist to select the vignettes for every page in the comic and it allows to link a sound or music to each one.
+
+The mobile interface is made with ("LungoJS":http://lungojs.com ) allowing access to a huge share of the mobile devices. The user is able to select the desired comic he wants to read, and it will be presented in a very readable size. To navigate the app responds at two touch events: swipe left and swipe right, this makes the navigation very intuitive. When the user reaches the end of the page, a new page is downloaded from the server and starts from the first vignette.
+
+There is a lot of work to do, this is only a very simple version to show the idea.
+A "working" version is accesible from:
+"http://comicsurfer.jcalonso.com":http://comicsurfer.jcalonso.com
+
+h2. Limits and known bugs
+
+Best experience on iPhone and Google Chrome (window resized to 320x480).
+Sound effects doesn't load on iPhone.
+Android has problems with the touch events.
+There's only one comic and 3 pages of this one.
